@@ -3,7 +3,7 @@
 const imdb = require('./src/imdb');
 const DENZEL_IMDB_ID = 'nm0000243';
 const MongoClient=require('mongodb').MongoClient;
-const uri = 'mongodb+srv://FlorentBiss:Floby.hokcey1002@cluster0-nitmr.mongodb.net/test?retryWrites=true'
+const uri = 'mongodb+srv://FlorentBiss:Floby.hokcey1002@cluster0-nitmr.mongodb.net/test?retryWrites=true';
 
 
 async function sandbox (actor) {
