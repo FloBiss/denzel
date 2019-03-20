@@ -15,7 +15,7 @@ app.use(BodyParser.urlencoded({extended:true}));
 
 var database,collection;
 
-app.listen(3000,() => {
+app.listen(process.env.PORT,() => {
 	MongoClient.connect(URL, {useNewUrlParser: true}, (error,client) => {
 		if(error){
 			throw error;
